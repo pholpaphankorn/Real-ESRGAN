@@ -7,3 +7,8 @@ Pillow
 torch>=1.7
 torchvision
 tqdm
+Flask~=2.2.2
+flask-cors
+Werkzeug~=2.2.2
+wheel~=0.38.4
+commentjson~=0.9.0
