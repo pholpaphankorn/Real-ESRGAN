@@ -16,7 +16,7 @@ cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
 
 
-@app.route('/imageRestoration',methods = ['POST','GET'])
+@app.route('/imageRestoration',methods = ['POST'])
 def restore():
     try:
         data=str(request.get_json()['images_path'])
